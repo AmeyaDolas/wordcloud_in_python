@@ -22,7 +22,7 @@ def calculate_frequencies(file_contents):
     
     
     #step 1 : create a new string of the whole file by skipping all punctuations.
-    #step 2 : create a list of all words by using the new string created (hint: use split() function)
+    #step 2 : create a list of all words by using the new string created
     #step 3 : create a new list of all words which are lowercase. Use the list in step2 to create this new list by converting 
     #each word in that list to lowercase and appending it to the new list
     #step 4 : create a new list by appending words of list in step3 to this new list. skip all uninteresting words and numbers.
